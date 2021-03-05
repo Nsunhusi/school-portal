@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;700&display=swap");
+
+::-moz-selection {
+  background-color: #ffe1a9;
+  color:#fff;
+  color: var(--text1);
+  background-color:var(--select);
+}
+::selection {
+  background-color: #ffe1a9;
+  color:#fff;
+  color: var(--text1);
+  background-color:var(--select);
+}
+*{
+  transition:background .6s;
+  -moz-transition:background .6s;
+  -o-transition:background .6s;
+  -webkit-transition:background .6s;
+  -ms-transition:background .6s;
+}
+noscript{
+  display: block;
+    position: relative;
+    z-index: 10000;
+background:linear-gradient(bottom, #ffa500,  rgb(255, 217, 10));
+        background:-moz-linear-gradient(bottom, #ffa500,  rgb(255, 217, 10));
+         background:-o-linear-gradient(bottom, #ffa500,  rgb(255, 217, 10));
+        background:-ms-linear-gradient(bottom, #ffa500,  rgb(255, 217, 10));
+        background:-webkit-linear-gradient(bottom, #ffa500,  rgb(255, 217, 10));
+
+    background:linear-gradient(bottom, var(--main),  var(--lmain));
+        background:-moz-linear-gradient(bottom, var(--main),  var(--lmain));
+         background:-o-linear-gradient(bottom, var(--main),  var(--lmain));
+        background:-ms-linear-gradient(bottom, var(--main),  var(--lmain));
+        background:-webkit-linear-gradient(bottom, var(--main),  var(--lmain));
+        position:fixed;
+        width:100%;
+        height:fit-content;
+}
+.noscript h2{
+  margin-top:0px;
+}
+.noscript{
+  color:#fff;
+  color:var(--text1);
+   text-align:center;
+   padding:15px;
+}
+
+:root,:before,:after{
+  --pinterest: rgb(189, 8, 28);
+  --facebook: rgb(59, 101, 194);
+  --whatsapp: rgb(79, 206, 93);
+  --twitter: rgb(8, 160, 233);
+  --telegram: rgb(0, 136, 204);
+  
+  
+  --amain:rgb(200, 114, 0);
+  --awhatsapp: rgb(79, 206, 93);
+  --atwitter: rgb(8, 160, 233);
+  --atelegram: rgb(0, 136, 204);
+  --almain:rgb(200, 162, 10);
+
+  --border: rgb(236, 239, 241);
+  --secBorder: rgb(224, 224, 224);
+
+  --grey: rgb(119, 119, 119);
+  --lightgrey: rgb(241 243 244);
+  --black:rgb(20, 21, 24);
+  --black2:rgba(0,0,0,0.5);
+  --white: rgb(255, 255, 255);
+  --altwhite:#acadae;
+
+  --pitch:#313235;
+  --shadow:inherit;
+  --ashadow:0px 0px 12px rgba(0,0,0,0.2);
+
+  --aborder:rgb(186, 189, 191);
+  --altborder:var(--secBorder);
+  --layer0:var(--black);
+  --lay1:rgb(67, 68, 71);
+  --lay2:rgb(94,94,96);
+  --layer2:rgba(255,255,255,.2);
+  --layer3:rgba(0,0,0,0.75);
+  --layer4:rgba(255,255,255,.75);
+  --hover:var(--secBorder);
+  --hover2:var(--border);
+  --select:rgb(255, 225, 169);
+  --aselect:rgb(138, 124, 99);
+  --lay:unset;
+  --layerb:var(--black);
+  --block:block;
+  --flex:flex;
+  --logo:url('https://www.peerlessmag.com/files/source/mainbo.png');
+  --logo2:url('https://www.peerlessmag.com/files/source/mainwo.png');
+
+  --slogo:url('https://www.peerlessmag.com/files/source/smainwo.png');
+  --slogo2:url('https://www.peerlessmag.com/files/source/smainbo.png');
+
+  --splogo:url('https://www.peerlessmag.com/files/source/spmainbo.png');
+  --splogo2:url('https://www.peerlessmag.com/files/source/spmainwo.png');
+
+  --nlogo2:url('https://www.peerlessmag.com/files/source/nlogow.png');
+  --nlogo:url('https://www.peerlessmag.com/files/source/nlogob.png');
+
+  --nsplogo:url('https://www.peerlessmag.com/files/source/smtext.png');
+  --nsplogo2:url('https://www.peerlessmag.com/files/source/smtext1.png');
+  --bopacity:.7;
+  --opacity:1;
+
+  --progressbg:rgb(255, 227, 175);
+  --progress:var(--main);
+}
+:root{
+  --main: rgb(255, 164, 0);
+  --lmain:rgb(255, 217, 10);
+    --whiteb:var(--white);
+  --whitec:var(--white);
+  --whited:var(--white);
+  --whitef:var(--secBorder);
+  --whitee:var(--secBorder);
+    --text:var(--black);
+  --text1:var(--white);
+  --text2:var(--grey);
+  --text3:var(--secBorder);
+  --text4:var(--lightgrey);  
+  --btext:var(--white);
+}
